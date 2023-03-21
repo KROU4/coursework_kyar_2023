@@ -1,0 +1,314 @@
+/* Шрифт Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Используемые цвета: #08D9D6 - #252A34 - #FF2E63 - #EAEAEA */
+
+/* Сброс стилей */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Основной стиль */
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6rem;
+  color: #252A34;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Утилитарные классы */
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.primary-text {
+  color: #FF2E63;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-dark {
+  background-color: #252A34;
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #EAEAEA;
+}
+
+.bg-primary {
+  background-color: #08D9D6;
+  color: #fff;
+}
+
+.btn {
+  background-color: #08D9D6;
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.technical {
+  font-size: 0.7rem;
+}
+
+.btn:hover {
+  background-color: #FF2E63;
+}
+
+.btn-dark {
+  background-color: #252A34;
+}
+
+.py-1 {
+  padding: 0.4rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.p-1 {
+  padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.l-heading {
+  font-size: 3rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.m-heading {
+  font-size: 2rem;
+  line-height: 2;
+}
+
+/* Стили для текста */
+.lead {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+/* Эффект тени */
+.box-shadow {
+  box-shadow: 0 0 2px #252A34;
+}
+
+/* Секция: Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  opacity: 1;
+}
+
+#navbar .logo img {
+  width: 65px;
+  display: block;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+#navbar ul li a {
+  padding: 1rem;
+  color: #fff;
+}
+
+#navbar ul li a:hover {
+  background-color: #08D9D6;
+  border-radius: 8px;
+}
+
+/* Витрина */
+#showcase {
+  background: #272c3685 url(../img/showcase.jpg) no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 1.5rem;
+
+  /* наложение */
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+/* Секция: About */
+#about .about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .about-content div,
+#about .about-content img {
+  flex: 1;
+}
+
+#about .about-content img {
+  display: block;
+  width: 50%;
+  border: 5px solid #fff;
+  margin-left: 1rem;
+}
+
+/* Вызов к действию */
+#techical_bad {
+  background: #252A34;
+  color: #fff;
+}
+
+#techical_bad .techical_bad-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Наши программы */
+#cordinates .boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cordinates .boxes .box {
+  flex: 1;
+}
+
+#cordinates .boxes .box img {
+  width: 150px;
+  border-radius: 20%;
+}
+
+/* Тренеры */
+#sitess .sites-boxes {
+  display: flex;
+}
+
+#sitess .sites-boxes .sites-box {
+  flex: 1;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+#sitess .sites-boxes .sites-box img {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#sitess .sites-boxes .sites-box ul {
+  display: flex;
+  list-style: none;
+}
+
+#sitess .sites-boxes .sites-box ul li {
+  margin-right: 0.75rem;
+}
+
+#sitess .sites-boxes .sites-box ul li i {
+  color: #252A34;
+}
+
+#sitess .sites-boxes .sites-box ul li i:hover {
+  color: #FF2E63;
+}
+
+/* Контакт */
+#contact {
+  display: flex;
+}
+
+#contact .contact-us,
+#contact .map {
+  flex: 1;
+}
+
+#contact .contact-us input,
+#contact .contact-us textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+#contact .contact-us .form-group {
+  display: flex;
+}
+
+#contact .contact-us .form-group input[type="text"] {
+  margin-right: 0.75rem;
+}
+
+/* Стили для кнопки гамбургер меню */
+.hamburger {
+  display: none; /* Скрываем кнопку на широких экранах */
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media screen and (max-width: 768px) {
+  #navbar ul {
+    display: none; /* Скрываем элементы меню */
+  }
+
+  #navbar li {
+    display: block; /* Располагаем элементы меню вертикально */
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+
+  .hamburger {
+    display: block; /* Показываем кнопку гамбургер меню */
+  }
+
+  #navbar.active ul {
+    display: block; /* Показываем элементы меню при активации гамбургер меню */
+  }
+}

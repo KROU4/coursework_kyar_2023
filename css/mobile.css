@@ -1,0 +1,159 @@
+/* Утилитарные классы */
+.l-heading {
+  font-size: 3rem;
+  /* размер шрифта для заголовков */
+
+}
+
+.lead {
+  font-size: 1rem;
+  /* размер шрифта для вводного текста */
+  line-height: 1.3;
+  /* высота строки для вводного текста */
+}
+
+/* Секция: Navbar */
+#navbar {
+  flex-direction: column;
+  /* направление элементов внутри контейнера - колонка */
+  align-items: center;
+  /* выравнивание элементов по центру */
+  padding-bottom: 1.5rem;
+  /* внутренний отступ снизу */
+}
+
+#navbar .logo {
+  margin-bottom: 1rem;
+  /* внешний отступ снизу */
+}
+
+/* О нас */
+#about .about-content {
+  display: block;
+  /* элементы блока располагаются друг под другом */
+  text-align: center;
+  /* выравнивание по центру */
+}
+
+#about .about-content img {
+  width: 100%;
+  /* ширина изображения на 100% от родительского контейнера */
+  margin: 1rem 0 0 0;
+  /* внешний отступ сверху */
+}
+
+/* Программы */
+#cordinates .boxes {
+  display: block;
+  /* элементы блока располагаются друг под другом */
+}
+
+/* Профессиональные тренеры */
+#sitess .sites-boxes {
+  display: block;
+  /* элементы блока располагаются друг под другом */
+}
+
+/* Контакты */
+#contact {
+  flex-direction: column;
+  /* направление элементов внутри контейнера - колонка */
+  height: 1000px;
+  /* высота контейнера */
+}
+
+@media screen and (max-width: 500px) {
+
+  #navbar {
+    position: static;
+    /* позиционирование элемента по умолчанию */
+  }
+
+  #navbar ul {
+    display: block;
+    /* элементы блока располагаются друг под другом */
+    text-align: center;
+    /* выравнивание по центру */
+  }
+
+  #navbar ul li {
+    padding: 1rem;
+    /* внутренний отступ вокруг элемента */
+  }
+
+  #contact .contact-us .form-group {
+    display: block;
+    /* элементы блока располагаются друг под другом */
+  }
+
+}
+
+@media screen and (min-height: 653px) {
+  .m-heading {
+    font-size: 1.75rem;
+    /* размер шрифта для заголовков / */
+    line-height: 1.2;
+    /* высота строки для заголовков */
+  }
+
+  #techical_bad .techical_bad-content {
+    min-height: 400px;
+    /* минимальная высота контейнера */
+  }
+}
+
+/* Стили для кнопки гамбургер меню */
+.hamburger {
+  display: none; /* Скрываем кнопку на широких экранах */
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media screen and (max-width: 768px) {
+  #navbar ul {
+    display: none; /* Скрываем элементы меню */
+  }
+
+  #navbar li {
+    display: block; /* Располагаем элементы меню вертикально */
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+
+  .hamburger {
+    display: block; /* Показываем кнопку гамбургер меню */
+  }
+
+  #navbar.active ul {
+    display: block; /* Показываем элементы меню при активации гамбургер меню */
+  }
+}
+
+
+/* Добавление комментариев */
+
+/* .l-heading - класс для заголовков с крупным шрифтом */
+
+/* .lead - класс для вводного текста, который должен быть меньше, чем обычный текст */
+
+/* #navbar - идентификатор для навигационной панели */
+
+/* #navbar .logo - элемент для логотипа внутри навигационной панели */
+
+/* #about .about-content - контейнер для содержимого блока "О нас" */
+
+/* #about .about-content img - изображение внутри блока "О нас" */
+
+/* #cordinates .boxes - контейнер для блока "Программы" */
+
+/* #sitess .sites-boxes - контейнер для блока "Профессиональные тренеры" */
+
+/* #contact - контейнер для блока "Контакты" */
+
+/* @media screen and (max-width: 500px) - медиа-запрос для экранов с максимальной шириной 500 пикселей */
+
+/* @media screen and (min-height: 653px) - медиа-запрос для экранов с минимальной высотой 653 пикселя */
