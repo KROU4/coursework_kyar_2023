@@ -46,6 +46,10 @@ a {
   background-color: #EAEAEA;
 }
 
+.bg-white {
+  background-color: white;
+}
+
 .bg-primary {
   background-color: #08D9D6;
   color: #fff;
