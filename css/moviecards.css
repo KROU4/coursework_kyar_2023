@@ -27,9 +27,9 @@
 #about .movie-cover {
     position: absolute;
     height: 130px;
-    margin-top: 190px;
-    margin-right: 193px;
-    border-radius: 5px;
+    margin-top: 198px;
+    margin-right: 196px;
+    border-radius: 8px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -61,7 +61,8 @@
     column-count: 4;
     height: 30px;
     width: 270px;
-    margin-top: 140px;
+    margin-top: 0px;
+    margin-left: 18px;
 }
 
 #about .head1 p {
@@ -75,7 +76,7 @@
     column-count: 4;
     height: 30px;
     width: 270px;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 #about .head2 p {
@@ -83,5 +84,13 @@
     font-family: sans-serif;
     font-size: 0.9em;
     font-weight: 700;
+}
 
+.description {
+    font-size: 13px;
+    margin-left: 92px;
+    margin-top: 9px;
+    width: 190px;
+    height: 137px;
+    word-break: break-all;
 }

@@ -152,6 +152,7 @@ a {
 #navbar ul li a:hover {
   background-color: #08D9D6;
   border-radius: 8px;
+  transition: 0.3s;
 }
 
 /* Витрина */

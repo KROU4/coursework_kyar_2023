@@ -24,6 +24,7 @@ xhttp.onreadystatechange = function () {
 // Загружаем файл
 xhttp.send();
 
+//гамбургер для мобильных устройств по нажатию
 const navbar = document.getElementById('navbar');
 const hamburger = document.querySelector('.hamburger');
 
