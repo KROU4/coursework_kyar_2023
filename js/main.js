@@ -1,4 +1,4 @@
-// Плавная прокрутка
+// Плавная прокрутка с использованием jQuery
 $("#navbar a, .btn").on("click", function (event) {
 
   if (this.hash !== "") {
